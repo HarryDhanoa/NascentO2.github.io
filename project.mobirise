@@ -2,15 +2,28 @@
   "settings": {
     "currentPage": "index.html",
     "versionFirst": "3.5.1",
-    "versionPublish": "3.5.1",
+    "versionPublish": "3.10.8",
     "name": "Nascent-O2",
     "theme": {
       "name": "mobirise3",
-      "title": "Mobirise 3"
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
     },
     "scrollAnimation": "true",
-    "publishType": "local",
-    "publishPath": "file:///Users/harprit_dhanoa/Documents/Ontogenesis/Harprit%20Dhanoa/Nascent-O2Website/NascentO2.github.io"
+    "uniqCompNum": 0
   },
   "pages": {
     "index.html": {
@@ -199,6 +212,9 @@
             "count": 3,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
@@ -208,10 +224,7 @@
             "overlayOpacity": 0.2,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubtitle": true,
-            "showImages": true,
-            "showName": true,
-            "showBio": true
+            "showSubtitle": true
           },
           "title": "WHAT OUR FANTASTIC USERS SAY",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
@@ -220,6 +233,7 @@
           "_name": "form1",
           "_anchor": "form1-0",
           "_params": {
+            "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
@@ -262,7 +276,12 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
         },
         {
           "_name": "contacts2",
@@ -285,7 +304,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>Nascent O2<br>Wellesley House, <br>Cranbrook Road, <br>IG1 4NH<br><br>\n<strong>Contacts</strong><br>\nEmail: info@nascent-o2.com<br>\nPhone:&nbsp;44.7577798714<br><br>",
+          "text1": "<strong>Address</strong><br>Nascent O2<br>Wellesley House, <br>Cranbrook Road, <br>IG1 4NH<br><br>\n<strong>Contacts</strong><br>\nEmail: info@nascent-o2.com<br>\nPhone:&nbsp;44.203.290.8379<br><br>",
           "text2": ""
         }
       ]
